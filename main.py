@@ -7,7 +7,7 @@ CHECK_INTERVAL = 30
 
 def alert():
     sys.stdout.write('\a')
-    print(f"UPDATE DETECTED")
+    print(f"UPDATED: Probably a working patch.")
 
 def monitor():
     while True:
