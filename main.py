@@ -3,7 +3,7 @@ import time
 import sys
 
 URL = "https://age-verifier.kibty.town/"
-CHECK_INTERVAL = 30
+CHECK_INTERVAL = 60
 
 def alert():
     sys.stdout.write('\a')
